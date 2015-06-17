@@ -3,3 +3,18 @@
  * :D
  */
 $(document).foundation();
+
+function guardar() {
+    localStorage.clear();
+    localStorage.seleccion = document.getElementById("seleccion").value;
+}
+
+function leer() {
+    document.getElementById("accesstext").innerHTML = "Accceso a: " + localStorage.seleccion;
+}
+
+window.onload = function () {
+    if (document.getElementById("accesstext") !== null) {
+        leer()
+    }
+};

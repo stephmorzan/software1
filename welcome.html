@@ -30,13 +30,13 @@
             <div class="row">
                 <div class="large-12 columns">
                     <label class="textito">Acceso:
-                        <select class="textito">
+                        <select class="textito" id="seleccion">
                             <option value="none" disabled selected>Seleccione una Opcion</option>
                             <option value="Internet" name="internet">Internet</option>
                             <option value="Buzon" name="buzon">Buzón</option>
-                            <option value="Compartida" name="compartida">Carpetas Compartidas</option>
+                            <option value="Carpetas Compartidas" name="compartida">Carpetas Compartidas</option>
                             <option value="USB" name="usb">USB</option>
-                            <option value="Directory" name="directory">Active Directory</option>
+                            <option value="Active Directory" name="directory">Active Directory</option>
                         </select>
                     </label>
                 </div>
@@ -56,10 +56,9 @@
 
             <div class="row">
                 <div class="small-4 large-centered columns">
-                    <input type="submit" value="Enviar" class="postfix botones">
+                    <input type="submit" value="Enviar" class="postfix botones" onclick="guardar()">
                 </div>
             </div>
-
         </div>
     </form>
 </div>
