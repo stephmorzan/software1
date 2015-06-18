@@ -29,7 +29,7 @@ function leer2() {
 }
 function leer3() {
     document.getElementById("organizacion2").value = localStorage.organizacion;
-    document.getElementById("derivar").value = localStorage.derivar;
+    document.getElementById("seleccion").value = localStorage.derivar;
 }
 function leer4() {
     document.getElementById("actividades2").value = localStorage.actividades;
