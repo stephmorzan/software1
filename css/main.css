@@ -142,7 +142,7 @@ footer a:hover {
 }
 
 .barra-superior {
-    background-color: #E44F25;
+    background-color: #EA5325;
     color: white;
     font-size: 3em;
     padding-left: 1em;
@@ -151,6 +151,7 @@ footer a:hover {
     padding-bottom: 0.6em;
     height: auto;
     border-radius: 0px 0px 8px 8px;
+    vertical-align: text-bottom;
 }
 
 .barra-superior2 {
@@ -165,13 +166,19 @@ footer a:hover {
     border-radius: 0px 0px 8px 8px;
 }
 
-.textito{
+.textito {
     color: darkblue;
 }
 
-
-
-.botones{
-    background-color: #E44F25;
+.botones {
+    background-color: #EA5325;
     color: #FFFFFF;
+}
+
+.botones:hover {
+    background-color: #00008B;
+}
+
+.imagenheader {
+    vertical-align: text-bottom;
 }
