@@ -175,6 +175,11 @@ footer a:hover {
     color: #FFFFFF;
 }
 
+.botones2 {
+    background-color: #007ba4;
+    color: #FFFFFF;
+}
+
 .botones:hover {
     background-color: #00008B;
 }
