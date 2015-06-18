@@ -11,7 +11,7 @@ function guardar() {
 }
 
 function leer() {
-    document.getElementById("accesstext").innerHTML = "Accceso a: " + localStorage.seleccion;
+    document.getElementById("accesstext").innerHTML = "Acceso a: " + localStorage.seleccion;
 }
 function leer2() {
     document.getElementById("accesstext2").innerHTML = localStorage.seleccion;

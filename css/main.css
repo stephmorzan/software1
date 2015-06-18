@@ -187,3 +187,13 @@ footer a:hover {
 .imagenheader {
     vertical-align: text-bottom;
 }
+
+.centrado {
+margin-top: 13px;
+    position: absolute;
+    top: 50%;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    height: auto;
+    padding-right: -3em;
+}
